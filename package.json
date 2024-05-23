@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "serve": "webpack serve --config webpack/webpack.dev.config.js --open",
+    "build:dev": "webpack --config webpack/webpack.dev.config.js",
     "build": "webpack --config webpack/webpack.prod.config.js"
   },
   "devDependencies": {
