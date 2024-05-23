@@ -1,0 +1,31 @@
+# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.
+
+# For additional information regarding the format and rule options, please see:
+
+# https://github.com/browserslist/browserslist#queries
+
+# https://stackoverflow.com/a/66234329
+
+# You can see what browsers were selected by your queries by running:
+
+# npx browserslist
+
+# bumping versions due to optional chaining issue on https://deliveryhero.slack.com/archives/C04972AG5EC/p1667216303845669
+
+## Desktop
+
+Chrome >= 80
+safari >= 13.1
+firefox >= 77
+opera >= 67
+
+## mobile
+
+and_chr >= 80
+and_ff >= 77
+ios_saf >= 13.1
+
+# https://github.com/angular/angular-cli/issues/22606
+
+not ios_saf 15.2-15.3
+not safari 15.2-15.3
